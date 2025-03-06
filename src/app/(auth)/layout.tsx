@@ -8,12 +8,12 @@ interface AuthLayoutProps {
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
   return (
-    <main className="flex min-h-screen w-screen items-center justify-center bg-gray-100">
-      <div className="p-6 rounded-lg shadow-md bg-white">
-        <Suspense fallback={<div>Loading authentication...</div>}>
-          {children}
-        </Suspense>
-      </div>
-    </main>
+
+    <div className="flex h-screen w-screen items-center justify-center">
+    <Suspense fallback={<div>Loading authentication...</div>}>
+      {children}
+    </Suspense>
+    </div>
+
   );
 }

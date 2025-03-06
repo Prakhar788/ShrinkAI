@@ -20,17 +20,24 @@ import {
   SheetTrigger,
 } from "../ui/sheet";
 import { ThemeToggle } from "../ui/theme-toggle";
+import FuzzyText from "@/blocks/TextAnimations/FuzzyText/FuzzyText";
+import { useTheme } from "next-themes";
 
 export function Header() {
   const { data: session, status } = useSession();
   const isAuthenticated = status === "authenticated";
+  const { theme } = useTheme();
+  const textColor = theme === "dark" ? "#fff" : "#000";
 
   return (
     <header className="border-b">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link href={"/"} className="text-xl font-bold">
-          ShrinkAI
+        <FuzzyText baseIntensity={0.2} hoverIntensity={0.5} enableHover={true} color={textColor}>
+        ShrinkAI
+        </FuzzyText>
         </Link>
+
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-2">
