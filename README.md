@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ShrinkAI - AI-Powered URL Shortener  
 
-## Getting Started
+## Description  
+ShrinkAI is a smart URL shortener that uses AI to manage links efficiently. It allows you to create custom short URLs, automatically flags inappropriate links, and provides detailed analytics to track your links' performance. ShrinkAI makes link management easy, secure, and intelligent.  
 
-First, run the development server:
+## 🚀 Getting Started  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Clone the Repository  
+```sh
+git clone https://github.com/Prakhar788/ShrinkAI.git
+cd ShrinkAI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies  
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Set Up Environment Variables  
+Copy the example environment file and configure it as needed:  
+```sh
+cp .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Start the Development Server  
+```sh
+npm run dev
+```
 
-## Learn More
+## ✨ Features  
+- 🔗 **Custom Short URLs** – Create and personalize your short links  
+- 🚨 **AI-Powered Flagging** – Detects and marks inappropriate or harmful links  
+- 📊 **Link Analytics** – View stats on visits, sources, and more  
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots  
+### Admin Dashboard  
+![Screenshot 2025-03-06 234403](https://github.com/user-attachments/assets/f098cbfe-d570-4ed8-abef-637d54ec1d76)
+ 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### URL Management  
+![Screenshot 2025-03-06 234425](https://github.com/user-attachments/assets/d77ba5ab-c741-456f-be2a-7b863280f284)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### Flagged URLs  
+![Screenshot 2025-03-06 234439](https://github.com/user-attachments/assets/b602ab31-d47a-4ded-9e51-7ef4af137bce)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### User Management  
+![Screenshot 2025-03-06 234450](https://github.com/user-attachments/assets/d35fb65a-61e6-4b86-8a3a-69f5b40de940)
+
+
+### URL Statistics  
+![Screenshot 2025-03-06 234539](https://github.com/user-attachments/assets/db6fedae-1cac-4ad5-98ef-c4b4e9553016)
+
+### Main Dashboard  
+![Screenshot 2025-03-06 234557](https://github.com/user-attachments/assets/8b1d7feb-7a45-4be5-aa0a-bd77000c8c08)
+
+
+### Landing Page  
+![Screenshot 2025-03-06 234611](https://github.com/user-attachments/assets/0a94833c-9e42-4a44-88e3-6f6b84604798)
+
+
+## 🤝 Contributing  
+If you find any issues or have ideas for improvement, feel free to:  
+1. Clone the repository  
+2. Make necessary changes  
+3. Open an issue or submit a pull request  
+
+## 📩 Contact  
+For any questions or suggestions, reach out at **prakhar6601@gmail.com**.  
+
+Happy Shortening! 🚀
