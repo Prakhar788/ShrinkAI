@@ -43,6 +43,8 @@ npm run dev
 
 ### Flagged URLs  
 ![Screenshot 2025-03-06 234439](https://github.com/user-attachments/assets/b602ab31-d47a-4ded-9e51-7ef4af137bce)
+![Screenshot 2025-03-07 024537](https://github.com/user-attachments/assets/87267422-ad02-4f45-9cc1-506789faf29a)
+
 
 
 ### User Management  
@@ -58,6 +60,8 @@ npm run dev
 
 ### Landing Page  
 ![Screenshot 2025-03-06 234611](https://github.com/user-attachments/assets/0a94833c-9e42-4a44-88e3-6f6b84604798)
+![Screenshot 2025-03-07 024503](https://github.com/user-attachments/assets/368a9fa3-67b2-45d4-87f2-a46d5b526530)
+
 
 
 ## 🤝 Contributing  
